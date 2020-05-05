@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fresca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=McLaren&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+
+/* Application-wide Styles */
+h1 {
+  color: #369;
+  font-family: "Bangers", cursive;
+  font-size: 250%;
+}
+h2,
+h3 {
+  color: #444;
+  font-family: "Fresca", sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body,
+input[type="text"],
+button {
+  color: #333;
+  font-family: "Delius", cursive;
+}
+/* everywhere else */
+* {
+  font-family: "McLaren", cursive;
+}
